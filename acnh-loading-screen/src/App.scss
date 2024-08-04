@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'FOT-Seurat Pro Bold';
+  src: local('FOT-Seurat Pro Bold'), url('./Fonts/FOT-SeuratProB.otf'), format('otf');
+}
+
+@font-face {
+  font-family: 'FOT-Seurat Pro DemiBold';
+  src: local('FOT-Seurat Pro DemiBold'), url('./Fonts/FOT-SeuratProDB.otf'), format('otf');
+}
+
+@font-face {
+  font-family: 'FOT-Seurat Pro Medium';
+  src: local('FOT-Seurat Pro Medium'), url('./Fonts/FOT-SeuratProM.otf'), format('otf');
+}
+
+body {
+  background-color: #202328;
+  font-family: FOT-Seurat Pro DemiBold;
+  overflow: hidden;
+  color: #EDFDFF;
+}
+
+button {
+  font-family: FOT-Seurat Pro Bold;
+  border-radius: 25px;
+  padding: .5rem 2rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.tips {
+  margin: 0 35rem;
+  text-align: center;
+  animation: fade-in 5s ease infinite alternate;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.SA {
+  margin: auto;
+  width: 90%;
+  position: relative;
+  right: 40px;
+}
+
+.SB {
+  margin: auto;
+}
+
+.SB-obj {
+  position: relative;
+  left: 12.5vw;
+  max-width: 70%;
+}
+
+.loadingA {
+  position: fixed;
+  bottom: 5%;
+  left: 90vw;
+  span {
+    font-family: FOT-Seurat Pro Bold;
+    display: inline-block;  
+    animation: loading 1.5s infinite;
+    // position: relative;
+    // bottom: 50px;
+    margin: 1px;
+    @for $i from 1 through 15 {
+      &:nth-child(#{$i+1}) {
+        animation-delay: #{$i*.1}s;
+      }
+    }
+  }
+}
+
+.loadingB {
+  position: fixed;
+  bottom: 5%;
+  left: 90vw;
+  span {
+    font-family: FOT-Seurat Pro Bold;
+    display: inline-block;  
+    animation: loading 1.5s infinite;
+    margin: 1px;
+    @for $i from 1 through 15 {
+      &:nth-child(#{$i+1}) {
+        animation-delay: #{$i*.1}s;
+      }
+    }
+  }
+}
+
+@keyframes loading {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}

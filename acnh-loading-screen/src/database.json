@@ -1,0 +1,404 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "text": "Always check the Nook Shopping app daily for special deals and limited-time items that could enhance your island's design and functionality."
+    },
+    {
+      "id": 2,
+      "text": "Use the in-game camera app to capture and share beautiful photos of your island, showcasing your designs and special moments with friends."
+    },
+    {
+      "id": 3,
+      "text": "When planting trees, use a checkerboard pattern to maximize the space and ensure that each tree has enough room to grow properly."
+    },
+    {
+      "id": 4,
+      "text": "Be sure to water your flowers every day to prevent them from wilting. This helps them thrive and potentially breed new flower colors."
+    },
+    {
+      "id": 5,
+      "text": "Visit your island daily to stay updated on events, complete daily tasks, and ensure that you do not miss out on time-sensitive activities."
+    },
+    {
+      "id": 6,
+      "text": "Upgrade your tools as soon as you can. Better tools make tasks such as fishing, bug catching, and mining fossils much more efficient."
+    },
+    {
+      "id": 7,
+      "text": "Make use of the custom design tool to create unique patterns and designs for your island, making it truly personalized and reflective of your style."
+    },
+    {
+      "id": 8,
+      "text": "Participate in seasonal events throughout the year. They offer exclusive items and recipes that can help make your island stand out and be more interesting."
+    },
+    {
+      "id": 9,
+      "text": "Visit other players' islands to gather inspiration for your own. You might find unique items or ideas that you can incorporate into your island design."
+    },
+    {
+      "id": 10,
+      "text": "Craft DIY recipes to create customized furniture and decorations for your island. This adds a personal touch and can significantly enhance the look of your space."
+    },
+    {
+      "id": 11,
+      "text": "Building friendships with your villagers can unlock new interactions, special events, and even gifts, making your island community more vibrant and engaging."
+    },
+    {
+      "id": 12,
+      "text": "Use a fishing rod or net to catch different bugs and fish, as their availability varies based on the time of day, season, and weather conditions."
+    },
+    {
+      "id": 13,
+      "text": "Store extra items in your home storage to keep your inventory manageable. This helps you maintain a clutter-free space and easily access items when needed."
+    },
+    {
+      "id": 14,
+      "text": "Utilize the island designer app to build custom paths, ponds, and other features. This tool allows you to create a unique and well-organized island layout."
+    },
+    {
+      "id": 15,
+      "text": "The museum is a great place to showcase your collected bugs, fish, and fossils. Donate items regularly to expand the museum's exhibits and gain more knowledge."
+    },
+    {
+      "id": 16,
+      "text": "Be on the lookout for rare fish and bugs that only appear during specific months or times of day. Their rarity makes them valuable for collecting and selling."
+    },
+    {
+      "id": 17,
+      "text": "Regularly check your island for dropped items, weeds, and other debris to keep it looking its best. This maintenance helps ensure your island remains visually appealing."
+    },
+    {
+      "id": 18,
+      "text": "Customize the interior of your house and furniture to reflect your personal taste and style. This makes your home a comfortable and unique space within the game."
+    },
+    {
+      "id": 19,
+      "text": "Participate in special events like fishing tournaments and bug-offs to earn rare rewards. These events provide opportunities to collect exclusive items and gain bragging rights."
+    },
+    {
+      "id": 20,
+      "text": "Remember to save your game regularly to protect your progress and avoid losing any achievements or changes you've made to your island."
+    },
+    {
+      "id": 21,
+      "text": "Use the in-game map to plan the placement of new buildings and features. Proper planning helps create a well-organized island with functional and aesthetic appeal."
+    },
+    {
+      "id": 22,
+      "text": "Swap items with friends to complete your collection more quickly. Trading can help you acquire rare or exclusive items that are not easily obtainable otherwise."
+    },
+    {
+      "id": 23,
+      "text": "Crafting DIY recipes allows you to create personalized furniture and tools from materials you gather. This can enhance your island's look and functionality in unique ways."
+    },
+    {
+      "id": 24,
+      "text": "Pay attention to the weather, as it affects the availability of certain fish and bugs. Some creatures only appear under specific weather conditions or during certain times."
+    },
+    {
+      "id": 25,
+      "text": "Manage your in-game finances using the ABD machine at Nook's Cranny. This tool helps you track and save your bells, making it easier to manage your money."
+    },
+    {
+      "id": 26,
+      "text": "Set up a bulletin board or use the in-game message system to communicate with friends and post updates about events or changes on your island."
+    },
+    {
+      "id": 27,
+      "text": "Inviting special characters to your island can unlock new features and items. These characters often bring unique activities and opportunities to enhance your gameplay experience."
+    },
+    {
+      "id": 28,
+      "text": "Create designated areas for gardening and planting to keep your island organized. This helps manage your plants and flowers effectively and enhances your island's design."
+    },
+    {
+      "id": 29,
+      "text": "Collect and donate fossils to the museum to unlock new exhibits and gain knowledge about prehistoric creatures. This activity also helps expand the museum's collection."
+    },
+    {
+      "id": 30,
+      "text": "Explore new islands using the Dodo Airlines to discover rare items, unique villagers, and additional resources that can enhance your island and gameplay."
+    },
+    {
+      "id": 31,
+      "text": "Create custom clothing and accessories using the custom design app. This allows you to personalize your character's look and express your creativity through fashion."
+    },
+    {
+      "id": 32,
+      "text": "Keep track of seasonal events and festivals throughout the year. Participating in these events provides access to exclusive items and activities that vary with the seasons."
+    },
+    {
+      "id": 33,
+      "text": "Enhance your island's atmosphere by placing outdoor furniture and decorations. This creates a welcoming environment and adds character to different areas of your island."
+    },
+    {
+      "id": 34,
+      "text": "Building bridges and inclines makes it easier to navigate your island and access different areas. This improves the overall functionality and accessibility of your island layout."
+    },
+    {
+      "id": 35,
+      "text": "Check your island's rating to receive feedback and suggestions for improvement. This rating can provide insights into how to enhance your island's design and functionality."
+    },
+    {
+      "id": 36,
+      "text": "Use tools like the ladder and vaulting pole to access higher or isolated areas of your island. These tools help you explore and utilize different parts of your island effectively."
+    },
+    {
+      "id": 37,
+      "text": "Customize the exterior of your house to match the theme and style of your island. This creates a cohesive look and enhances the overall aesthetic of your island."
+    },
+    {
+      "id": 38,
+      "text": "Invite friends to visit your island to share your design ideas and get feedback. Friends can offer suggestions and help you improve or enhance various aspects of your island."
+    },
+    {
+      "id": 39,
+      "text": "Use bells wisely to make essential upgrades to your home and island. Investing in important improvements can enhance your gameplay experience and the overall look of your island."
+    },
+    {
+      "id": 40,
+      "text": "Participate in fishing tournaments to compete for rare items and gain bragging rights. These events offer unique rewards and provide opportunities to test your fishing skills."
+    },
+    {
+      "id": 41,
+      "text": "Plant fruit trees and bushes to create a productive and visually appealing island. This not only enhances the look of your island but also provides resources for various activities."
+    },
+    {
+      "id": 42,
+      "text": "Keep track of all the DIY recipes you collect using the DIY recipe app. This helps you remember which recipes you have and what materials you need to craft them."
+    },
+    {
+      "id": 43,
+      "text": "Decorate your island with seasonal items to celebrate different holidays and events throughout the year. This adds a festive touch and keeps your island feeling fresh and lively."
+    },
+    {
+      "id": 44,
+      "text": "Use the Pro Design tool to create custom wallpapers and flooring for your home. This allows you to personalize the interior of your house and create unique designs."
+    },
+    {
+      "id": 45,
+      "text": "Build a campsite on your island to attract new villagers. This feature helps you expand your island community and invites new characters to join your island life."
+    },
+    {
+      "id": 46,
+      "text": "Keep an eye out for special sales and discounts at Nook's Cranny to find great deals on items and upgrades. These offers can help you save bells and acquire new items."
+    },
+    {
+      "id": 47,
+      "text": "Use Nook Miles to purchase special items and upgrades for your island. These miles can be earned through various activities and spent on unique rewards and features."
+    },
+    {
+      "id": 48,
+      "text": "Organize your items in storage to keep everything accessible and easy to find. Proper organization helps you manage your inventory efficiently and locate items quickly when needed."
+    },
+    {
+      "id": 49,
+      "text": "Use the in-game clock to manage your time effectively. This helps you plan your activities around events, fishing times, and other time-sensitive tasks on your island."
+    },
+    {
+      "id": 50,
+      "text": "Explore your island's hidden secrets and special locations. These areas often contain surprises, rare items, or unique features that can enhance your gameplay experience."
+    },
+    {
+      "id": 51,
+      "text": "Regularly update your island's design to keep it fresh and exciting. Making changes and improvements can keep the game engaging and allow you to experiment with new ideas."
+    },
+    {
+      "id": 52,
+      "text": "Use the NookLink app to access additional features and tools for managing your island. This app provides convenient ways to interact with the game and enhance your gameplay experience."
+    },
+    {
+      "id": 53,
+      "text": "Build fences around different areas of your island to create boundaries and sections. This helps to organize your island and can also enhance its overall aesthetic appeal."
+    },
+    {
+      "id": 54,
+      "text": "Decorate the beach areas of your island with outdoor furniture and items. This can create a coastal theme and make the beach a more enjoyable and visually appealing space."
+    },
+    {
+      "id": 55,
+      "text": "Craft seasonal recipes that match the current time of year. This adds a festive touch to your island and helps you celebrate holidays and seasonal events with unique items."
+    },
+    {
+      "id": 56,
+      "text": "Create themed areas on your island, such as gardens or picnic spots. These designated spaces can enhance the charm of your island and offer areas for relaxation and enjoyment."
+    },
+    {
+      "id": 57,
+      "text": "Keep track of your achievements and milestones within the game. This helps you stay motivated and gives you goals to work towards as you develop and improve your island."
+    },
+    {
+      "id": 58,
+      "text": "Use the in-game events calendar to plan ahead for upcoming activities and celebrations. This helps you prepare for special events and ensure you don't miss out on any opportunities."
+    },
+    {
+      "id": 59,
+      "text": "Join online communities and forums to share your island and get feedback from other players. Engaging with the community can provide new ideas and help you improve your island."
+    },
+    {
+      "id": 60,
+      "text": "Regularly clean up your island to maintain its appearance. Removing weeds, picking up dropped items, and managing clutter helps keep your island looking its best and more enjoyable to explore."
+    },
+    {
+      "id": 61,
+      "text": "Use the camera app to capture and preserve memories of your island. Sharing photos with friends can showcase your designs and achievements, and provide a visual record of your island's progress."
+    },
+    {
+      "id": 62,
+      "text": "Plan your island layout carefully to include essential facilities and features. A well-thought-out layout improves functionality and makes your island more enjoyable to navigate and live on."
+    },
+    {
+      "id": 63,
+      "text": "Rotate and rearrange your furniture and items to create new looks and setups. Experimenting with different arrangements can help you discover new ways to enhance your island's design."
+    },
+    {
+      "id": 64,
+      "text": "Make the most of the DIY workbench to craft unique and personalized items. This tool allows you to create custom furniture and decorations that add a personal touch to your island."
+    },
+    {
+      "id": 65,
+      "text": "Explore mystery islands using the Nook Miles Ticket to find rare resources, unique villagers, and additional items that can enhance your island and gameplay experience."
+    },
+    {
+      "id": 66,
+      "text": "Design themed areas like fishing ponds or relaxation spots to add charm and functionality to your island. These areas can make your island more enjoyable and visually appealing."
+    },
+    {
+      "id": 67,
+      "text": "Use Nook Miles Tickets to visit other islands and gather rare items or find new villagers. These tickets offer opportunities to explore and acquire valuable resources."
+    },
+    {
+      "id": 68,
+      "text": "Create well-defined pathways and walkways to improve navigation around your island. This enhances accessibility and helps visitors explore your island more easily."
+    },
+    {
+      "id": 69,
+      "text": "Use the in-game tools to design and apply custom patterns for various aspects of your island. Custom patterns can add personal touches and enhance the overall aesthetic of your space."
+    },
+    {
+      "id": 70,
+      "text": "Invite special characters to your island to unlock new features and items. These characters often bring unique activities and benefits that can enhance your gameplay experience."
+    },
+    {
+      "id": 71,
+      "text": "Experiment with different furniture arrangements to find the most effective setups. Changing the layout of your furniture can lead to new design ideas and improve the functionality of your island."
+    },
+    {
+      "id": 72,
+      "text": "Collect and showcase rare items in your home or museum to highlight your achievements. Displaying these items can enhance the visual appeal of your island and home."
+    },
+    {
+      "id": 73,
+      "text": "Customize your island's design to reflect your personal style and preferences. This can include arranging furniture, landscaping, and creating unique areas that showcase your creativity."
+    },
+    {
+      "id": 74,
+      "text": "Regularly visit the shops and vendors on your island to check for new items and updates. This helps you stay up-to-date with the latest offerings and seasonal goods."
+    },
+    {
+      "id": 75,
+      "text": "Decorate your island with a mix of seasonal and themed items. This keeps the island feeling fresh and relevant throughout the year, adding variety and excitement to your gameplay."
+    },
+    {
+      "id": 76,
+      "text": "Engage with your villagers regularly to build relationships and unlock new interactions. Strong relationships can lead to special events and gifts, making your island life more enjoyable."
+    },
+    {
+      "id": 77,
+      "text": "Explore new island designs and layouts through online communities and social media. Seeing what others have created can inspire you to try new ideas and improve your own island."
+    },
+    {
+      "id": 78,
+      "text": "Use the island designer app to create and manage custom paths, ponds, and other features. This tool allows you to implement your creative ideas and enhance your island's design."
+    },
+    {
+      "id": 79,
+      "text": "Participate in in-game challenges and events to earn rewards and special items. These activities provide opportunities to showcase your skills and gain exclusive content for your island."
+    },
+    {
+      "id": 80,
+      "text": "Take advantage of the game's seasonal changes to find new bugs, fish, and other collectibles. Each season brings unique opportunities to expand your collection and enjoy new content."
+    },
+    {
+      "id": 81,
+      "text": "Create designated relaxation spots or recreational areas on your island. These can be great places to unwind and add variety to the layout and functionality of your island."
+    },
+    {
+      "id": 82,
+      "text": "Regularly check the island's bulletin board and announcements for updates and new activities. Staying informed helps you make the most of seasonal events and in-game opportunities."
+    },
+    {
+      "id": 83,
+      "text": "Use the ABD machine to manage your savings and make purchases more efficiently. Keeping track of your bells helps you budget for upgrades and new items more effectively."
+    },
+    {
+      "id": 84,
+      "text": "Visit other players' islands to exchange ideas and learn new design techniques. Interacting with other players can provide fresh perspectives and inspire new ways to enhance your own island."
+    },
+    {
+      "id": 85,
+      "text": "Explore the island during different times of day and weather conditions to discover unique events and items. Each time of day and weather pattern offers new opportunities and challenges."
+    },
+    {
+      "id": 86,
+      "text": "Use custom designs to create unique patterns for your island's paths and decorations. Customization adds a personal touch and can significantly enhance your island's aesthetic appeal."
+    },
+    {
+      "id": 87,
+      "text": "Participate in island tours and events to gain access to exclusive items and experiences. These activities can add excitement and variety to your gameplay and island design."
+    },
+    {
+      "id": 88,
+      "text": "Manage your island's appearance by regularly removing weeds and trash. Keeping your island clean and well-maintained ensures a pleasant environment for both you and your villagers."
+    },
+    {
+      "id": 89,
+      "text": "Utilize in-game tools and features to experiment with different island layouts. This helps you find the best arrangement for your space and can lead to more efficient and appealing designs."
+    },
+    {
+      "id": 90,
+      "text": "Celebrate holidays and events by decorating your island with themed items. This adds festive elements and makes your island more engaging and enjoyable during special occasions."
+    },
+    {
+      "id": 91,
+      "text": "Share your island designs and achievements with friends through the in-game sharing features. This can lead to new ideas and feedback that help you refine and enhance your island."
+    },
+    {
+      "id": 92,
+      "text": "Use the Nook Miles to unlock special features and items. Accumulating miles through various activities allows you to access exclusive content and upgrades that can benefit your island."
+    },
+    {
+      "id": 93,
+      "text": "Create interactive areas such as playgrounds or game zones for your villagers. These spaces add functionality and fun to your island, making it more engaging for both you and your visitors."
+    },
+    {
+      "id": 94,
+      "text": "Take time to explore the game's different features and mechanics. Learning about new aspects of the game can help you discover additional ways to enhance your island experience."
+    },
+    {
+      "id": 95,
+      "text": "Use the in-game map to plan your island's layout and organization. Proper planning ensures that you use your space effectively and create a well-structured and aesthetically pleasing environment."
+    },
+    {
+      "id": 96,
+      "text": "Engage with special in-game characters and events to unlock new features and items. These interactions provide opportunities to expand your island's design and functionality."
+    },
+    {
+      "id": 97,
+      "text": "Regularly update your island with new designs and features. Frequent changes keep the island feeling fresh and engaging, allowing you to experiment with new ideas and styles."
+    },
+    {
+      "id": 98,
+      "text": "Explore new ways to interact with your villagers and island visitors. This can include hosting events or creating communal spaces, which enhances the overall social experience of your island."
+    },
+    {
+      "id": 99,
+      "text": "Use seasonal and event-themed items to decorate your island and celebrate different times of the year. This adds variety and keeps the gameplay experience lively and interesting."
+    },
+    {
+      "id": 100,
+      "text": "Optimize your island's layout by organizing different areas for specific purposes, such as gardening, fishing, or relaxation. A well-organized island improves both aesthetics and functionality."
+    }
+  ]
+}
