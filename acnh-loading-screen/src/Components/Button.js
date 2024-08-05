@@ -1,6 +1,6 @@
-const Button = ({scene, onClick }) => {
+const Button = ({scene, onClick, className }) => {
     return (
-        <button onClick={onClick}>{scene}</button>
+        <button className={className} onClick={onClick}>{scene}</button>
     )
 }
 
