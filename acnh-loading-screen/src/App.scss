@@ -23,6 +23,7 @@ body {
 .menu-button {
   display: inline-block;
   cursor: pointer;
+  max-width: fit-content;
 }
 
 .bar1, .bar2, .bar3 {
@@ -91,28 +92,29 @@ button:hover {
   border-width: 2px;
 }
 
+// make responsive with breakpoints
 .tips {
-  margin: 0 35rem;
+  margin: 0 20vw;
   text-align: center;
-  animation: fade-in 3s ease infinite ;
+  animation: fade-in 7s ease infinite;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateY(80%);
+    transform: translateY(60%);
   }
-  35% {
+  20% {
     opacity: 1;
     transform: translateY(0%);
   }
-  50% {
+  80% {
     opacity: 1;
     transform: translateY(0%);
   }
   100% {
-    opacity: 1;
-    transform: translateY(0%);
+    opacity: 0;
+    transform: translateY(60%);
   }
 }
 
