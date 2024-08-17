@@ -11,24 +11,34 @@ export default function App() {
   const scene2 = "Loading Screen B";
 
   const toggleMenu = (button) => {
-    button.classList.toggle("change")
-    document.querySelector(".buttonA").classList.toggle("change")
-    document.querySelector(".buttonB").classList.toggle("change")
-  }
-  
+    button.classList.toggle("change");
+    document.querySelector(".buttonA").classList.toggle("change");
+    document.querySelector(".buttonB").classList.toggle("change");
+  };
+
   return (
     <div>
       <div className="button-container">
-        <div className="menu-button" onClick={(e) => toggleMenu(e.currentTarget)}>
+        <div
+          className="menu-button"
+          onClick={(e) => toggleMenu(e.currentTarget)}
+        >
           <div className="bar1"></div>
           <div className="bar2"></div>
           <div className="bar3"></div>
         </div>
-        <Button className="buttonA change" onClick={() => setRenderScene1(true)} scene={scene1} />
-        <Button className="buttonB change" onClick={() => setRenderScene1(false)} scene={scene2} />
+        <Button
+          className="buttonA change"
+          onClick={() => setRenderScene1(true)}
+          scene={scene1}
+        />
+        <Button
+          className="buttonB change"
+          onClick={() => setRenderScene1(false)}
+          scene={scene2}
+        />
       </div>
-      <Scene className='scene' renderScene1={renderScene1}  />
+      <Scene className="scene" renderScene1={renderScene1} />
     </div>
   );
 }
-

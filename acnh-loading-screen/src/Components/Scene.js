@@ -1,5 +1,5 @@
 import Spline from "@splinetool/react-spline";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react"; 
 
 const Scene = ({ renderScene1 }) => {
   const [text, setText] = useState(
@@ -10,6 +10,7 @@ const Scene = ({ renderScene1 }) => {
   const [isLoadedB, setIsLoadedB] = useState(false);
   const [objectToAnimate1, setObjectToAnimate1] = useState(null);
   const [objectToAnimate2, setObjectToAnimate2] = useState(null);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   //use math.random to return a random id, cannot be the same as the current id
   //function needs to be called on every mouse down event
@@ -24,7 +25,7 @@ const Scene = ({ renderScene1 }) => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:3030/tips", requestOptions)
+    fetch(`${apiUrl}/tips`, requestOptions)
       .then((res) => res.json())
       .then((res) => setText(res[id].text))
       .catch((error) => console.log("Error retrieving text:", error));
@@ -37,12 +38,12 @@ const Scene = ({ renderScene1 }) => {
   };
 
   const resetAnimation = () => {
-    const tips = document.getElementById("tips")
-    tips.classList.remove("animation")
-    void tips.offsetWidth
-    tips.classList.add("animation")
-    handleAnimationEvent()
-  }
+    const tips = document.getElementById("tips");
+    tips.classList.remove("animation");
+    void tips.offsetWidth;
+    tips.classList.add("animation");
+    handleAnimationEvent();
+  };
 
   useEffect(() => {
     setIsLoadedA(false);
@@ -69,7 +70,7 @@ const Scene = ({ renderScene1 }) => {
       // Trigger animation in Spline
       objectToAnimate1.emitEvent("mouseDown");
       objectToAnimate2.emitEvent("mouseDown");
-      resetAnimation()
+      resetAnimation();
     }
   };
 
@@ -106,11 +107,19 @@ const Scene = ({ renderScene1 }) => {
           {isLoadedB && (
             <div>
               <div className="tips-container">
-                <p onAnimationIteration={handleAnimationEvent} id="tips" className="animation">
+                <p
+                  onAnimationIteration={handleAnimationEvent}
+                  id="tips"
+                  className="animation"
+                >
                   {text}
                 </p>
               </div>
-              <button className="next-button" type="button" onClick={handleNextButton}>
+              <button
+                className="next-button"
+                type="button"
+                onClick={handleNextButton}
+              >
                 Next Tip
               </button>
               <div className="loadingB">
