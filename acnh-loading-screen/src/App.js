@@ -19,13 +19,13 @@ export default function App() {
   return (
     <div>
       <div className="button-container">
-        <div className="menu-button change" onClick={(e) => toggleMenu(e.currentTarget)}>
-          <div className="bar1 change"></div>
-          <div className="bar2 change"></div>
-          <div className="bar3 change"></div>
+        <div className="menu-button" onClick={(e) => toggleMenu(e.currentTarget)}>
+          <div className="bar1"></div>
+          <div className="bar2"></div>
+          <div className="bar3"></div>
         </div>
-        <Button className="buttonA" onClick={() => setRenderScene1(true)} scene={scene1} />
-        <Button className="buttonB" onClick={() => setRenderScene1(false)} scene={scene2} />
+        <Button className="buttonA change" onClick={() => setRenderScene1(true)} scene={scene1} />
+        <Button className="buttonB change" onClick={() => setRenderScene1(false)} scene={scene2} />
       </div>
       <Scene className='scene' renderScene1={renderScene1}  />
     </div>

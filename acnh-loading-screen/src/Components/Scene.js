@@ -8,7 +8,8 @@ const Scene = ({ renderScene1 }) => {
   const [id, setId] = useState(Math.floor(Math.random() * 100));
   const [isLoadedA, setIsLoadedA] = useState(false);
   const [isLoadedB, setIsLoadedB] = useState(false);
-  const [objectToAnimate, setObjectToAnimate] = useState(null);
+  const [objectToAnimate1, setObjectToAnimate1] = useState(null);
+  const [objectToAnimate2, setObjectToAnimate2] = useState(null);
 
   //use math.random to return a random id, cannot be the same as the current id
   //function needs to be called on every mouse down event
@@ -35,6 +36,14 @@ const Scene = ({ renderScene1 }) => {
     getTip();
   };
 
+  const resetAnimation = () => {
+    const tips = document.getElementById("tips")
+    tips.classList.remove("animation")
+    void tips.offsetWidth
+    tips.classList.add("animation")
+    handleAnimationEvent()
+  }
+
   useEffect(() => {
     setIsLoadedA(false);
     setIsLoadedB(false);
@@ -46,19 +55,21 @@ const Scene = ({ renderScene1 }) => {
 
   const handleLoadedB = (spline) => {
     setIsLoadedB(true);
-    setObjectToAnimate(
+    setObjectToAnimate1(
+      spline.findObjectById("61be10a9-4ec9-4ae9-a741-ea93289d03ee")
+    );
+    setObjectToAnimate2(
       spline.findObjectById("05a4c250-ca69-41b7-8c65-e301b3b11e6f")
     );
   };
 
   // Handler for screen click
-  const handleScreenClick = () => {
-    if (objectToAnimate) {
-      console.log(objectToAnimate);
-
+  const handleNextButton = () => {
+    if (objectToAnimate2) {
       // Trigger animation in Spline
-      objectToAnimate.emitEvent("mouseDown");
-      console.log("going");
+      objectToAnimate1.emitEvent("mouseDown");
+      objectToAnimate2.emitEvent("mouseDown");
+      resetAnimation()
     }
   };
 
@@ -94,12 +105,14 @@ const Scene = ({ renderScene1 }) => {
           ></Spline>
           {isLoadedB && (
             <div>
-              <button type="button" onClick={handleScreenClick}>
-                Trigger Spline Animation
+              <div className="tips-container">
+                <p onAnimationIteration={handleAnimationEvent} id="tips" className="animation">
+                  {text}
+                </p>
+              </div>
+              <button className="next-button" type="button" onClick={handleNextButton}>
+                Next Tip
               </button>
-              <p onAnimationIteration={handleAnimationEvent} className="tips">
-                {text}
-              </p>
               <div className="loadingB">
                 <span>L</span>
                 <span>O</span>

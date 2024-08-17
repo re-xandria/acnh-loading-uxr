@@ -16,6 +16,7 @@
 body {
   background-color: #202328;
   font-family: FOT-Seurat Pro DemiBold;
+  font-size: 14px;
   overflow: hidden;
   color: #EDFDFF;
 }
@@ -27,8 +28,8 @@ body {
 }
 
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 4px;
+  width: 30px;
+  height: 3px;
   background-color: black;
   margin: 7px 0;
   border-radius: 25px;
@@ -37,7 +38,7 @@ body {
 }
 
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg)
+  transform: translate(0, 10px) rotate(-45deg)
 }
 
 .change .bar2 {
@@ -45,7 +46,7 @@ body {
 }
 
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg)
+  transform: translate(0, -10px) rotate(45deg)
 }
 
 .buttonA, .buttonB {
@@ -63,7 +64,7 @@ body {
 .button-container {
   position: fixed;
   z-index: 1;
-  top: 10px;
+  top: 0;
   left: 10px;
   display: flex;
   flex-direction: column;
@@ -72,66 +73,95 @@ body {
 }
 
 button {
+  font-size: 12px;
   font-family: FOT-Seurat Pro Bold;
   border-radius: 25px;
   border-width: 2px;
-  border-color: #202328;
   border-style: solid;
-  background-color: #EDFDFF;
-  text-decoration: none;
-  padding: .5rem 2rem;
+  background-color: #202328;
+  color: #EDFDFF;
+  border-color: #EDFDFF;
+  padding: .5rem 1.5rem;
   display: block;
   letter-spacing: 1px;
   transition-duration: 0.2s;
 }
 
 button:hover {
-  background-color: #202328;
-  color: #EDFDFF;
-  border-color: #EDFDFF;
+  text-decoration: none;
+  border-color: #202328;
+  color: #202328;
+  border-style: solid;
+  background-color: #EDFDFF;
   border-width: 2px;
 }
 
+.next-button {
+  margin: auto;
+  margin-top: .5rem;
+  padding: .2rem 1.2rem;
+  background-color: #202328;
+  color: #EDFDFF;
+  border-color: #EDFDFF;
+  font-size: 12px;
+}
+
+.next-button:hover {
+  border-color: #202328;
+  color: #202328;
+  background-color: #EDFDFF;
+}
+
+.tips-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+
 // make responsive with breakpoints
-.tips {
-  margin: 0 20vw;
-  text-align: center;
+#tips {
+  margin: 0 17vw;
+  text-align: center;  
+}
+
+#tips.animation {
   animation: fade-in 7s ease infinite;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateY(60%);
+    transform: translateY(20%);
   }
-  20% {
+  15% {
     opacity: 1;
     transform: translateY(0%);
   }
-  80% {
+  85% {
     opacity: 1;
     transform: translateY(0%);
   }
   100% {
     opacity: 0;
-    transform: translateY(60%);
+    transform: translateY(20%);
   }
 }
 
 .SA {
   margin: auto;
-  width: 90%;
+  width: 100%;
   position: relative;
-  right: 40px;
+  right: 1vw;
 }
 
 .SB {
   margin: auto;
+  margin-top: 0;
 }
 
 .SB-obj {
-  position: relative;
-  left: 12.5vw;
+  margin: auto;
   max-width: 70%;
 }
 
@@ -181,5 +211,5 @@ button:hover {
 }
 
 .scene {
-  margin: 10vh 5vw;
+  margin: 5vh 5vw;
 }
