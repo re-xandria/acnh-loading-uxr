@@ -10,6 +10,7 @@ const Scene = ({ renderScene1 }) => {
   const [isLoadedB, setIsLoadedB] = useState(false);
   const [objectToAnimate1, setObjectToAnimate1] = useState(null);
   const [objectToAnimate2, setObjectToAnimate2] = useState(null);
+  const [animate, setAnimate] = useState(false);
   const apiUrl = process.env.REACT_APP_API_URL;
 
   //use math.random to return a random id, cannot be the same as the current id
@@ -19,16 +20,15 @@ const Scene = ({ renderScene1 }) => {
   //the spline animation needs to always play on lmb press, even if outside the spline player window
 
   //both scenes need to wait for spline obj to load before displaying text
-  const getTip = () => {
-    let requestOptions = {
-      method: "GET",
-      redirect: "follow",
-    };
-
-    fetch(`${apiUrl}/tips`, requestOptions)
-      .then((res) => res.json())
-      .then((res) => setText(res[id].text))
-      .catch((error) => console.log("Error retrieving text:", error));
+  const getTip = async () => {
+    try {
+      const response = await fetch(`${apiUrl}/tips`);
+      const data = await response.json();
+      setText(data[id].text); 
+      setAnimate(true); 
+    } catch (error) {
+      console.log('Error retrieving text:', error);
+    } 
   };
 
   const handleAnimationEvent = (e) => {
@@ -110,7 +110,7 @@ const Scene = ({ renderScene1 }) => {
                 <p
                   onAnimationIteration={handleAnimationEvent}
                   id="tips"
-                  className="animation"
+                  className={animate ? 'animation' : ''}
                 >
                   {text}
                 </p>
