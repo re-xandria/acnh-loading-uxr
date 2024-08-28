@@ -41,7 +41,7 @@ The prototype for the reimagined loading screen introduces the following feature
 - **Interactive Tips**: Game tips displayed interactively, allowing users to cycle through them.
 - **Immersive Design**: Visual elements that are consistent with the *Animal Crossing* art style.
 
-![Prototype Screenshot](path/to/screenshot.png)
+The prototype can also be accessed at https://acnh-loading-screen.vercel.app.
 
 ## Technologies Used
 
@@ -53,7 +53,7 @@ The prototype for the reimagined loading screen introduces the following feature
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/reimagined-animal-crossing-loading-screen.git
+    git clone https://github.com/re-xandria/acnh-loading-uxr.git
     ```
 2. Navigate to the project directory:
     ```bash
