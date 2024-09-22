@@ -13,7 +13,6 @@ This project explores the design of video game loading screens, focusing on enha
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Future Work](#future-work)
-- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## Background
@@ -25,7 +24,7 @@ Loading screens are an integral part of the user experience in video games. Whil
 1. **Data Collection**: Conducted surveys and usability testing to gather information on user preferences and pain points regarding video game loading screens.
 2. **Analysis**: Analyzed data to identify common themes and user expectations.
 3. **Insight Generation**: Derived key insights about what makes a loading screen engaging and immersive.
-4. **Design Iteration**: Based on the insights, designed a new prototype for the *Animal Crossing* loading screen.
+4. **Design Iteration**: Based on the insights, a new prototype was designed for the *Animal Crossing* loading screen.
 
 ## Design Goals
 
@@ -40,8 +39,6 @@ The prototype for the reimagined loading screen introduces the following feature
 - **Animated Background**: A repeating animation that reflects the game's theme.
 - **Interactive Tips**: Game tips displayed interactively, allowing users to cycle through them.
 - **Immersive Design**: Visual elements that are consistent with the *Animal Crossing* art style.
-
-The prototype can also be accessed at https://acnh-loading-screen.vercel.app.
 
 ## Technologies Used
 
@@ -70,13 +67,12 @@ The prototype can also be accessed at https://acnh-loading-screen.vercel.app.
 
 ## Future Work
 
-- **User Testing**: Conduct further user testing to refine the design.
+- **User Testing**: Conduct usability testing with real participants to get more accurate feedback.
 - **Additional Features**: Explore adding mini-games or additional interactive elements to the loading screen.
 - **Performance Optimization**: Optimize the loading screen for faster loading times.
 
 ## Acknowledgments
 
-- Special thanks to all participants who took part in the surveys and usability testing.
 - Inspired by the creative team behind *Animal Crossing: New Horizons*.
 
 ## License
